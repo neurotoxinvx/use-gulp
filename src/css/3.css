@@ -1,0 +1,334 @@
+/* reset */
+* {
+	margin:0;
+	padding:0;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, th {
+	font-size:14px;
+	font-weight: bold;
+	font-style: normal;
+	line-height:18px;
+}
+li {
+	vertical-align:middle;
+}
+a {
+	text-decoration:none;
+	padding:0;
+	margin:0;
+	outline:none;
+	color:#4c4747;
+}
+p, h2 {
+	line-height:18px;
+}
+a:hover {
+	color:#4b69ad;
+}
+strong {
+	font-weight:bold;
+}
+ul, ol {
+	list-style:none;
+}
+fieldset, img {
+	border: none
+}
+:focus {
+	outline: 0;
+}
+caption, th {
+	text-align:left;
+	font-weight: normal;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+.clear {
+	clear:both;
+}
+body {
+	font-size: 12px;
+	line-height: 1;
+	width: 100%;
+	display: table;
+	color:#4c4647;
+	margin:0 auto;
+}
+
+#wrapper {
+	width:960px;
+	margin:0 auto;
+}
+.bigPic {
+	width:935px;
+	height:609px;
+	overflow:hidden;
+	margin-bottom:20px;
+	margin-left:15px;
+}
+.bigPic img{ display:block;vertical-align:top;margin:5px auto;}
+
+#gallery {
+	width:967px;
+	height:833px;
+	background:url(../images/gallery_bg.png) no-repeat;
+	margin:10px auto;
+}
+.playNav {
+	height:48px;
+	line-height:48px;
+	padding-top:10px;
+	overflow:hidden;
+}
+
+.playNav h2 {
+	display:block;
+	float:left;
+	overflow:hidden;
+	line-height:48px;
+	padding-left:20px;
+}
+.playNav .title {
+
+	font-size:18px;
+	overflow:hidden;
+	color:#1f1f20;
+}
+.clear {
+	clear:both;
+}
+.playbar{
+	display:block;
+	float:left;
+	overflow:hidden;
+	width:130px;
+}
+.playButtom {
+	color:#aaa;
+	float:right;
+	display:block;
+	padding-right:15px;
+	margin-top:10px;
+}
+.play, .pause, .stop {
+	width:20px;
+	height:21px;
+	display:block;
+}
+.play {
+    background: url(../images/start.jpg) no-repeat;
+	float:left;
+	width:33px;
+	height:28px;
+	
+}
+.pause {
+	background:url(../images/stop.jpg) no-repeat;
+	float:left;
+	width:33px;
+	height:28px;
+}
+.stop {
+	margin-right:4px;
+	background:url(../images/gifbg3.gif) -95px -33px no-repeat;
+	float:left;
+}
+.spead {
+	color:#bdbdbd;
+	font-weight:bold;
+}
+.spead a {
+	margin:0 2px;
+	text-decoration:underline;
+	font-weight:normal;
+}
+.spead a.focus {
+	text-decoration:none;
+	font-weight:bold;
+	color:#ff8400;
+}
+.jump {
+	
+	height:48px;
+	line-height:48px;
+	padding:0 1px 0 10px;
+	text-align:center;
+	font-size:18px;
+	color:#2b2b2d;
+	float:left;
+
+
+}
+.jump span {
+	color:#000;
+}
+.pre, .next {
+	width:23px;
+	height:21px;
+	display:block;
+	overflow:hidden;
+}
+.pre {
+	float:left;
+}
+.next {
+	float:right;
+}
+span#showPage{ color:#ff6702;font-weight:bold;}
+
+i.seeRoot{ width:90px;margin:-2px 0 0 50px;float:left;}
+.seeRoot a{ width:54px;height:23px;line-height:24px;padding-left:25px;color:#000;background:url(../images/all.gif) no-repeat;display:block;overflow:hidden;}
+.seeRoot a:hover{ text-decoration:none;color:#000;}
+
+.singlepic{ width:800px;padding-bottom:9px;clear:both;overflow:hidden;}
+.prePic{ width:59px;padding:152px 0 0 24px;float:left;}
+.nextPic{ width:40px;padding:152px 0 0 20px;float:left;}
+.prePic a,.nextPic a{ width:39px;height:40px;display:block;}
+.prePic a{ background:url(../images/arrow-l.gif) no-repeat;}
+.nextPic a{ background:url(../images/arrow-r.gif) no-repeat;}
+
+.pageJump{ height:20px;text-align:center;clear:both;}
+.pageJump i{ color:#0373d2;}
+
+.prePic,.nextPic{ width:24px;height:55px;float:left;}
+.prePic{ padding:23px 8px 0 50px;}
+.prePic a,.nextPic a{ width:29px;height:29px;display:block;cursor:pointer;}
+.prePic a{ background:url(../images/prev_arrow.png) no-repeat;}
+.nextPic{ padding:23px 0 0 8px;}
+.nextPic a{ background:url(../images/next_arrow.png) no-repeat;}
+.silderpic{ width:935px;padding:20px 0 0 1px; background:url(../images/b_line.jpg) repeat-x left top; margin-left:15px; position:relative;}
+.silderpic li{ width:100px;margin:0 8px;border:3px solid #f2f2f2;float:left;display:inline;}
+.silderpic li a{ width:98px;height:73px;border:1px solid #dae3ec;text-align:center;background:#fff;display:block;}
+.silderpic li img{ width:98px;height:73px;overflow:hidden;display:block;margin:0 auto;}
+.silderpic li.focus{ border:3px solid #057cdb;}
+.silderpic li.focus a{ border:1px solid #fff;}
+.gallery_bg{ margin-left:75px;}
+#big_box{
+	height:640px;
+	
+}
+.big_content{ width:673px; height:86px; border-right:1px solid #eeeeee; float:left;}
+.big_content h2{ padding:0px 0 5px 20px;}
+.big_content p{ padding-left:20px;}
+.right_tag{
+	float:left;
+	padding-left:20px;
+	
+}
+.right_tag img{
+	float:left;
+	
+}
+ .author{
+	float:left;
+	padding-left:10px;
+	
+}
+.speak{
+	background:url(../images/ti.jpg) left center no-repeat;
+	height:25px;
+	margin-left:20px;
+	margin-top:5px;
+	
+	
+	
+}
+.speak a{
+	color:#004276;
+	font-weight:bold;
+	padding-left:20px;
+	line-height:25px;
+	
+	
+}
+.speak span{
+	color:#cc0000;
+	font-weight:bold;
+}
+
+#tuji{
+	width:967px;
+	height:178px;
+	background:url(../images/tuji.jpg) no-repeat;
+}
+.tu_head{
+	padding-bottom:5px;
+	border-bottom:1px solid #b2b2b2;
+	margin:0 20px;
+	padding-top:15px;
+	
+}
+.tu_head h2{
+	background:url(../images/left_arrow.jpg) left center no-repeat;
+	height:20px;
+	line-height:20px;
+	padding-left:25px;
+	color:#505053;
+}
+#tuji ul {
+	margin:10px 0 0 28px;
+	
+}
+#tuji ul li{
+	float:left;
+	width:185px;
+	
+}
+
+.left_tuji{
+	width:110px;
+	height:101px;
+	background:url(../images/tuji_bg.jpg);
+	position:absolute;
+	left:0;
+	top:10px;
+
+	
+}
+.right_tuji{
+	width:110px;
+	height:101px;
+	background:url(../images/tuji_bg.jpg);
+	position:absolute;
+	right:0;
+	top:10px;
+	
+}
+
+
+.left_tuji img,.right_tuji img{
+	width:94px;
+	height:64px;
+	margin:10px 0 0 8px;
+
+	
+}
+.left_tuji span a{
+	float:left;
+	margin:4px 0 0 20px;
+
+	
+}
+ .right_tuji span a{
+	float:left;
+	margin:4px 0 0 25px;	
+}

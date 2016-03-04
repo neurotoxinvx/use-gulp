@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+/* CSS Document -- skyren */
+body{font-family:"微软雅黑",Arial, Helvetica, sans-serif; font-size: 12px;font-style: normal; line-height: 22px; font-weight: normal; font-variant: normal; color:#666; background:url(../images/qk_img.gif) repeat-x;}
+body,ul,dl,dd,dt,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,img,td,div,input{margin:0;padding:0;}
+a{ outline-style:none; color:#666; text-decoration:none; border:0px;}
+a:hover,.u_more:hover{ text-decoration:none; color:#bd8a27;}
+input,select,textarea{font-size:12px; font-family:Arial, Helvetica, sans-serif; color:#666}
+input{ border:0;outline:none}
+img{border:0;}
+li{list-style-type:none; vertical-align:0}
+.hidden{display:none;}
+.fleft{float:left}
+.fright{float:right}
+.pr{ position:relative;}
+.pa{ position:absolute}
+.clear{ clear:both; height:0; line-height:0; overflow:hidden; font-size:0;}
+
+.main{ width:776px; margin:0 auto}
+.head{ height:29px; line-height:29px;}
+.head .fleft a{ color:#fff;}
+.head .fright{color:#95b5d6;}
+.head .fright a{ color:#95b5d6; margin:0 5px;}
+.mid h1{ height:70px; line-height:70px; text-align:center; font-size:20px; color:#ff9c00; font-weight:700;}
+.pages{ font-size:14px; height:45px; line-height:45px;}
+.page_r,.page_q{color:#d9ebfe; float:left}
+.page_r a,.page_q a,.page_k a{ margin-left:10px; color:#d9ebfe}
+.go_page{ width:50px;}
+.page_r{ margin-left:80px; display:inline}
+.page_r a{ margin-right:10px;}
+.page_r span{ margin-right:15px;}
+.p_d1{ margin-left:30px;}
+.page_k{ float:right}
+.mid_pic{ width:776px; height:987px; position:relative; overflow:hidden; background:#fff;}
+.mid_pic img{ width:776px; height:987px;}
+.mid_pic ul{ position:absolute}
+.mid_pic li{width:776px; height:987px; float:left; background:url(../images/loading.gif) no-repeat center center}
+.s_left,.s_right{ width:58px; height:87px; background:url(../images/s_left.png) no-repeat; position:absolute; left:0; top:50%; margin-top:-43px; display:none}
+.s_right{background:url(../images/s_right.png) no-repeat; left:auto; right:0;}
+.foot{ text-align:center; color:#99cce2; height:40px; line-height:40px; border-top:1px solid #67b6d9}
